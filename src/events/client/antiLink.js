@@ -37,6 +37,8 @@ module.exports = {
                 .setTimestamp();
 
             message.channel.send({ embeds: [Embed] })
+
+            message.delete();
         }
 
     }
